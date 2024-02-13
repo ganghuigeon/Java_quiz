@@ -11,10 +11,11 @@ public class quiz11 {
         ch = (char) ((ch) + 2);
 
         float f = (float) (3 / 2.0);
-        long l = (long)3000 * 3000 * 3000;
+        long l = (long)3000 * 3000 * 3000; //int로 인식하다보니, long으로 인식하도록 처리해줘야 데이터 손실 없어짐
 
         float f2 = 0.1f;
         double d = 0.1;
+
         boolean result = (float) d==f2;
 
         System.out.println("c="+c);

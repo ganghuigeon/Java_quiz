@@ -7,6 +7,7 @@ public class quiz7 {
         double z = 5 % y;
 
         if (Double.isNaN(x)) {
+            //실제 답 if(Double.isNaN(z))
             System.out.println("0.0으로 나눌 수 없습니다.");
         } else {
             double result = z + 10;
