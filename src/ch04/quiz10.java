@@ -13,8 +13,6 @@ public class quiz10 {
         System.out.println("===============================");
         while (banking) {
             //메뉴생성
-
-
             //스캐너로 값을 입력받음
             System.out.println("진행하실 은행업무를 선택해주세요: ");
             String strNum = scanner.nextLine(); //입력받은 값을 저장
@@ -36,6 +34,7 @@ public class quiz10 {
                 //종료
                 banking = false;
                 System.out.println("프로그램 종료");
+                break;
             } else {
                 System.out.println("잘못 선택하셨습니다. 보안을 위해 종료합니다.");
                 break;
